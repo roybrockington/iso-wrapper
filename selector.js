@@ -32,15 +32,14 @@ const addCss = (css) => {
     head.appendChild(link)
 }
 
-/*addCss('https://cdn.scvlabs.co.uk/iso/isoselector.css')*/
-addCss('./isoselector.css')
+addCss('./selector.css')
 
 const isoFrame = document.createElement("iframe")
 isoFrame.id = 'isoacoustics-iframe'
 isoFrame.src = 'https://calculator.isoacoustics.com/'
 const caption = document.getElementById("iso_text").value
 const logo = document.createElement("img")
-logo.src = "https://cdn.scvlabs.co.uk/iso/isoselectorlogo.png"
+logo.src = "./assets/isoselectorlogo.png"
 logo.style.maxHeight = '60px'
 const header = document.createElement("div")
 header.className = "iso_header"
