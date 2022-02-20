@@ -10,7 +10,7 @@ Simply paste the following snippet wherever the launch button may be shown.
 ```
 <input id="iso_text" type="hidden" value="Find the right product for you" />
 <div id="iso_shell"></div>
-<script src="./selector.js"></script>
+<script src="https://raw.githubusercontent.com/roybrockington/isowrapper/main/selector.js"></script>
 ```
 
 Edit the `#iso_text` input value to amend the header text.
