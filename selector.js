@@ -32,18 +32,18 @@ const addCss = (css) => {
     head.appendChild(link)
 }
 
-addCss('./selector.css')
+addCss('https://raw.githubusercontent.com/roybrockington/isowrapper/main/selector.css')
 
 const isoFrame = document.createElement("iframe")
 isoFrame.id = 'isoacoustics-iframe'
 isoFrame.src = 'https://calculator.isoacoustics.com/'
 const caption = document.getElementById("iso_text").value
 const logo = document.createElement("img")
-logo.src = "./assets/logo.png"
+logo.src = "https://raw.githubusercontent.com/roybrockington/isowrapper/main/assets/logo.png"
 logo.style.maxHeight = '60px'
 const header = document.createElement("div")
 header.className = "iso_header"
-header.innerText = caption
+header.innerText = caption === "" ? "Pick the right IsoAcoustics product for your speaker, component or amp..." : caption
 const isoOverlay = document.createElement("div")
 isoOverlay.className = "iso_overlay"
 const isoContent = document.createElement("div")
