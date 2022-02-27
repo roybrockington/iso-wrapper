@@ -1,4 +1,4 @@
-# isowrapper
+# iso-wrapper
 Modal beautifier for eCommerce sites featuring IsoAcoustics product calculators
 
 ![Example of modal overlay](./assets/modal_screenshot.png)
